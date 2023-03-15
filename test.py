@@ -51,7 +51,7 @@ set_seed(args.seed)
 
 dataset = args.dataset
 if dataset == 'sysu':
-    data_path = '/workspace/dataset/SYSU-MM01/'
+    data_path = '/root/dataset/sys/'
     n_class = 395
     test_mode = [1, 2]
 elif dataset =='regdb':
